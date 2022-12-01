@@ -14,6 +14,7 @@ export default {
     this.$watch(
       () => this.$route.params,
       () => {
+        window.scrollTo(0, 0);
         this.getCurrentProject();
       },
       // fetch the data when the view is created and the data is
@@ -33,7 +34,7 @@ export default {
 
 <template>
   <main>
-    <div class="mainContentContainer">
+    <div class="projectWrapper">
       <ContentCard
         v-if="currentProject"
         :currentProject="currentProject"

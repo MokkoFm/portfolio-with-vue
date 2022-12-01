@@ -27,10 +27,10 @@ export default {
 </script>
 
 <template>
-  <v-card max-width="400" v-show="currentProject">
+  <v-card max-width="90%" width="500" v-show="currentProject" class="card">
     <v-card-item>
       <div>
-        <div class="text-h6">
+        <div class="text-body">
           <a :href="currentProject.projectLink" target="_blank" rel="noopener noreferrer">{{
             currentProject.projectLink
           }}</a>

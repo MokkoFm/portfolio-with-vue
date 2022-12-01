@@ -37,12 +37,3 @@ export default {
     </div>
   </main>
 </template>
-
-<style>
-.mainContentContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 95vh;
-}
-</style>

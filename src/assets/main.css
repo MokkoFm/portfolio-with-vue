@@ -1,8 +1,33 @@
-@import './base.css';
+@import "./base.css";
 
-a,
-.green {
-  text-decoration: none;
-  color: #000;
-  transition: 0.4s;
+.mainContentContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.projectWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+  .projectWrapper {
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .projectWrapper {
+    height: 100vh;
+  }
 }

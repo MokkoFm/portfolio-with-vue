@@ -42,7 +42,7 @@ export default {
 </script>
 
 <template>
-  <v-card max-width="400" v-show="cardWithoutProject">
+  <v-card max-width="90%" width="500" v-show="cardWithoutProject">
     <v-card-item>
       <div>
         <div class="text-h6">
