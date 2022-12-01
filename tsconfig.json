@@ -3,7 +3,7 @@
   "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
   "compilerOptions": {
     "baseUrl": ".",
-    "types": ["vuetify", "node"],
+    "types": ["vuetify"],
     "paths": {
       "@/*": ["./src/*"]
     }

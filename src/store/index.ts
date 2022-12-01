@@ -15,7 +15,7 @@ const state: State = {
   isProjectsLoading: false,
 };
 
-export default createStore({
+export default createStore<State>({
   state,
   mutations: {
     setName(state, name) {
